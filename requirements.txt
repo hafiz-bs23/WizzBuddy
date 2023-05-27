@@ -3,4 +3,5 @@ langchain
 unstructured
 tabulate
 pdf2image
+openai
 uvicorn
