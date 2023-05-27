@@ -2,4 +2,5 @@ fastapi
 langchain
 unstructured
 tabulate
+pdf2image
 uvicorn
