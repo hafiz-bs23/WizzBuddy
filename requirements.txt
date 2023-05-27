@@ -5,4 +5,5 @@ tabulate
 pdf2image
 openai
 chromadb
+tiktoken
 uvicorn
