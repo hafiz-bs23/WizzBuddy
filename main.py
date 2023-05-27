@@ -10,8 +10,6 @@ from langchain.chat_models import ChatOpenAI
 
 import os
 
-
-
 app = FastAPI()
 
 with open('hidden.txt') as file:
@@ -19,9 +17,9 @@ with open('hidden.txt') as file:
     os.environ["OPENAI_API_KEY"] = apiKey
 cv_file_path = './document/cvs.csv'
 employee_info_file_path = './document/employeeinfo.csv'
-text_loader = DirectoryLoader('./document/',glob='**/*.txt')
+text_loader = DirectoryLoader('./document/', glob='**/*.txt')
 cv_csv_loader = CSVLoader(file_path=cv_file_path, source_column="employee_name", encoding='utf-8')
-employee_info_loader = CSVLoader(file_path=employee_info_file_path,source_column="employee_name", encoding='utf-8')
+employee_info_loader = CSVLoader(file_path=employee_info_file_path, source_column="employee_name", encoding='utf-8')
 
 # loaders = [text_loader, cv_csv_loader, employee_info_loader]
 # data = []
@@ -36,16 +34,15 @@ employeeCvDocument = text_splitter.split_documents(cv_csv_loader.load())
 medicalBenefit = text_splitter.split_documents(text_loader.load())
 
 embedding = OpenAIEmbeddings()
-employeeInfoVectorstore = Chroma.from_documents(employeeInfoDocument,embedding)
-employeeCvVectorstore = Chroma.from_documents(employeeCvDocument,embedding)
-medicalBenefitVectorstore = Chroma.from_documents(medicalBenefit,embedding)
+employeeInfoVectorstore = Chroma.from_documents(employeeInfoDocument, embedding)
+employeeCvVectorstore = Chroma.from_documents(employeeCvDocument, embedding)
+medicalBenefitVectorstore = Chroma.from_documents(medicalBenefit, embedding)
 
-employeeInfoQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0),employeeInfoVectorstore.as_retriever())
-employeeCvQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0),employeeCvVectorstore.as_retriever())
-medicalBenefitQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0),medicalBenefitVectorstore.as_retriever())
-
-
-
+employeeInfoQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0),
+                                                       employeeInfoVectorstore.as_retriever())
+employeeCvQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0), employeeCvVectorstore.as_retriever())
+medicalBenefitQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=0),
+                                                         medicalBenefitVectorstore.as_retriever())
 
 chatHistory = []
 
@@ -70,13 +67,13 @@ chatHistory = []
 #     return text
 
 
-
 @app.get("/")
 async def root():
     return {"message": "Welcome to WizzBuddy"}
 
+
 @app.get("/{qa}/{question}")
-async def say_hello(qa:str,question: str):
+async def say_hello(qa: str, question: str):
     if qa == 'einfo':
         result = employeeInfoQa({"question": question, "chat_history": chatHistory}).get('answer')
     elif qa == 'ecv':
