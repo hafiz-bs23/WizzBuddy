@@ -31,7 +31,7 @@ app.add_middleware(
 with open('hidden.txt') as file:
     apiKey = file.readline()
     os.environ["OPENAI_API_KEY"] = apiKey
-cv_file_path = './document/cvs.csv'
+cv_file_path = './document/cvs-all.csv'
 employee_info_file_path = './document/employeeinfo.csv'
 text_loader = DirectoryLoader('./document/', glob='**/*.txt')
 cv_csv_loader = CSVLoader(file_path=cv_file_path, source_column="employee_name", encoding='utf-8')
