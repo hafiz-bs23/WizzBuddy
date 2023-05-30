@@ -18,6 +18,7 @@ origins = [
     "http://localhost",
     'https://chat-wizbuddy.onrender.com',
     "http://localhost:8080",
+    "https://localhost:53000",
 ]
 
 app.add_middleware(
