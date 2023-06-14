@@ -38,12 +38,6 @@ text_loader = DirectoryLoader('./document/', glob='**/*.txt')
 cv_csv_loader = CSVLoader(file_path=cv_file_path, source_column="employee_name", encoding='utf-8')
 employee_info_loader = CSVLoader(file_path=employee_info_file_path, source_column="employee_name", encoding='utf-8')
 
-# loaders = [text_loader, cv_csv_loader, employee_info_loader]
-# data = []
-#
-# for loader in loaders:
-#     data.extend(loader.load())
-
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 
 employeeInfoDocument = text_splitter.split_documents(employee_info_loader.load())
@@ -62,27 +56,6 @@ medicalBenefitQa = ConversationalRetrievalChain.from_llm(ChatOpenAI(temperature=
                                                          medicalBenefitVectorstore.as_retriever())
 
 chatHistory = []
-
-
-# def ge_api_response(prompt: str) -> str | None:
-#     text: str | None = None
-#     try:
-#         response: dict = openai.ChatCompletion.create(
-#             model="gpt-3.5-turbo",
-#             prompt=prompt,
-#             temperature=0.8,
-#             max_tokens=60,
-#             frequency_penalty=0,
-#             presence_penalty=0,
-#             suffix="Hy There!",
-#         )
-#         choises: dict = response.get('choices')[0]
-#         text = choises.get('text')
-#     except Exception as e:
-#         print('Error',e)
-#
-#     return text
-
 
 @app.get("/")
 async def root():

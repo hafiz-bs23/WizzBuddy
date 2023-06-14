@@ -1,6 +1,0 @@
-Overtime Policy of Brain Station 23 is as follows:
-1. Only first line supervisor of individual employee can raise OT requests for his subordinates.
-2. Minimum OT eligible hour is 1hr (One hour) or multiples of 1hr (one hour). No fraction is applicable.
-3. Approval by HR Manager is needed for the final confirmation of any OT request.
-4. The excess time of planned hour will be considered as OT working hours. i.e. There must be a attendance plan for OT eligibility.
-5. OT calculation: (Gross Salary/ 160) * Approved OT hour (but not more than the actual OT hour)
