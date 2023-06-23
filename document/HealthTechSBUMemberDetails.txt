@@ -1,0 +1,228 @@
+Company Name: Brain Station 23 Limited.
+SBU Name: Health Tech
+SBU Head Name: Asif Ul Huque
+SBU Current Projects: AbbVie, HBK, VIQUA
+SBU Past Projects: GLPG
+
+SBU Member Details:
+
+SBU Member Name: Asif Ul Huque,
+Brain Station 23 / BS23 ID: BS0080,
+Designation: SBU Head,
+Phone or Contact or Mobile Number: +8801713093641,
+Email: asif.huque@bs-23.net
+Current Project Name: All,
+Lead: Mohammad Mizanur Rahman,
+Reporting Stream Lead:  Not Required,
+Department: Administration,
+SBU Name: Health Tech
+
+
+SBU Member Name: Abdullah - Al - Mahedi Sabuj,
+Brain Station 23 / BS23 ID: BS0188,
+Designation: Lead Engineer,
+Phone or Contact or Mobile Number: +8801738202407,
+Email: mahedi.sabuj@bs-23.com
+Current Project Name: AbbVie,
+Lead: Asif Ul Huque,
+Reporting Stream Lead:  Not Required,
+Department: Development,
+SBU Name: Health Tech
+Expert: Java, C#, .NET
+
+SBU Member Name: Abu Sayed,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Senior UI Engineer,
+Phone or Contact or Mobile Number: +8801710403867,
+Email: sayeed@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: Md. Sahab Uddin Shihab,
+Reporting Stream Lead:  Md. Sahab Uddin Shihab,
+Department: UX-UI,
+SBU Name: Health Tech
+
+SBU Member Name: Ahmed Musaberul Khan,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Associate UI Engineer ,
+Phone or Contact or Mobile Number: +8801940909766,
+Email: Ahmed.Musaberul@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: Md. Sahab Uddin Shihab,
+Reporting Stream Lead:  Md. Sahab Uddin Shihab,
+Department: UX-UI,
+SBU Name: Health Tech
+
+SBU Member Name: Ahmed Sady Rifat,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number: +8801674646626,
+Email: sady.rifat@brainstation-23.com
+Current Project Name: GLPG,
+Lead: A. H. M. Imrul Hasan,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: A. H. M. Imrul Hasan,
+Brain Station 23 / BS23 ID: BS0359,
+Designation: Lead Engineer,
+Phone or Contact or Mobile Number: +8801671319014,
+Email: imrul.hasan@brainstation-23.com
+Current Project Name: GLPG,
+Lead: A. H. M. Imrul Hasan,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Al Shahriar Niloy,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number: +8801674562802,
+Email: Shahriar.Niloy@brainstation23.com
+Current Project Name: GLPG,
+Lead: Md. Mazharul Islam,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Anik Barua,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Associate Software Engineer,
+Phone or Contact or Mobile Number: +8801515209334,
+Email: anik.barua@brainstation-23.com
+Current Project Name: GLPG,
+Lead: Md. Mazharul Islam,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Apurba Kumar Biswash,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number: 8801736780752,
+Email: apurba@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: Abdullah - Al - Mahedi Sabuj,
+Reporting Stream Lead:  Badiuzzaman Sayem,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Ashraful Islam Mahim,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Senior Software Engineer,
+Phone or Contact or Mobile Number: +8801521495753,
+Email: ashraful.mahim@bs-23.net
+Current Project Name: GLPG,
+Lead: A. H. M. Imrul Hasan,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Asif Ahmed Chowdhury,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number: +8801871281282,
+Email: Asif.Chowdhury@brainstation23.com
+Current Project Name: GLPG,
+Lead: Kaikubad,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: A. S. M. Tawfiqur Rahman,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Senior SQA Engineer,
+Phone or Contact or Mobile Number:  +8801825546261,
+Email: tawfiqur.rahman@brainstation-23.com
+Current Project Name: GLPG,
+Lead: Md. Sakib Al Mahmud,
+Reporting Stream Lead:  N/A,
+Department: QA,
+SBU Name: Health Tech
+
+SBU Member Name: Dip Chowdhury,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number:  +8801685117737,
+Email: dip.chowdhury@brainstation-23.com
+Current Project Name: GLPG,
+Lead: Md. Mazharul Islam,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Ejaz Ahmad,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Service Desk Engineer,
+Phone or Contact or Mobile Number:  +8801717142529,
+Email: ejaz.ahmad@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: Shabbir Anower,
+Reporting Stream Lead:  Md. Rezaul Hasan,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Faizah Farzana,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number:  +8801992796633,
+Email: faizah.farzana@brainstation-23.com
+Current Project Name: N/A,
+Lead: Md. Mazharul Islam,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Fatema Tuz Zohora,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Senior SQA Engineer / Stream Lead,
+Phone or Contact or Mobile Number:  +8801704739719,
+Email: fatema.zohara@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: S.M. Obidul Kader Milon,
+Reporting Stream Lead:  N/A,
+Department: QA,
+SBU Name: Health Tech
+
+SBU Member Name: Firoz Mahmud,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Software Engineer,
+Phone or Contact or Mobile Number:  +8801744885126,
+Email: firoz@brainstation-23.com
+Current Project Name: GLPG,
+Lead: Kaikubad,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+SBU Member Name: Golam Asad Pias,
+Brain Station 23 / BS23 ID: N/A,
+Designation: Senior Business Analyst,
+Phone or Contact or Mobile Number:  +8801717561738,
+Email: pias@bs-23.net
+Current Project Name: AbbVie,
+Lead: Asif Ul Huque,
+Reporting Stream Lead:  N/A,
+Department: Project Management,
+SBU Name: Health Tech
+
+SBU Member Name: Hafizur Rahman,
+Brain Station 23 / BS23 ID: BS0669,
+Designation: Software Engineer / Stream Lead,
+Phone or Contact or Mobile Number:  +8801721661488, +8801303325153,
+Email: mdhafizur.rahman@brainstation-23.com
+Current Project Name: AbbVie,
+Lead: Md. Badiuzzaman Sayem,
+Reporting Stream Lead:  N/A,
+Department: Development,
+SBU Name: Health Tech
+
+
+
+
+
+
+
+
+
+
