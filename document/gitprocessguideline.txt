@@ -1,0 +1,27 @@
+Branches
+
+1. Master -  is synced with the production.
+2. Stage - is synced with the stage/qa
+3. Dev - is synced with the dev
+
+Process we follow when we start a new spring
+
+1. Create new package.json/pom.xml version (with SNAPSHOT) in the master branch
+2. Merge master to dev and stage
+3. Create branch from master with name feature/hcp-xxx yyy or fix/hcp-xxx yyy for development and bug fix (ie. hcp-xxx/aic-xxx is the ticket number)
+4. Once development is done, Create pull request to merge the branch to dev
+5. Once dev is signed off, Create pull request to merge the branch to stage (which are planned to go live)
+6. Once stage is signed off, Create pull request to merge stage to master.
+7. After final approval update the package.json/pom.xml version (remove SNAPSHOT)
+8. Create tag with the current release version
+9. Ready for final production release
+
+Process for Version update:
+1. Use versions:set from the versions-maven plugin: ```mvn versions:set -DnewVersion=2.50.1-SNAPSHOT```
+2. If you made a mistake, do ```mvn versions:revert```
+3. afterwards ```mvn versions:commit```
+
+
+Note: Never ever merge Dev branch or Stage branch to your feature branch. Always write Unit Test for your java code change. Resolve conflict smartly.
+
+To learn more about git process follow the link:  https://btsconfluence.abbvie.com/display/HCP/Git+Process+Guideline

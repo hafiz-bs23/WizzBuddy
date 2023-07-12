@@ -1,0 +1,13 @@
+Follow the below procedure for Access Request for PIAP.
+As for prerequisite you must need to have Abbvie ID and VM Access.
+1. Form your VM go to any browser.
+2. You can use the url directly: https://abbvienow.service-now.com/self_service/?id=sc_cat_item&sys_id=b109b1c61b1dc554cdee11b4bd4bcb1e
+or
+Please go to Service Portal Home from the URL- https://abbvienow.service-now.com/self_service?id=index
+and log in with AbbVie ID. Click on Request Something on the Service Portal Home page. One the search bar search with PIAP - User Access Request.
+Click on the access request tab and form will be appeared. Fill up the form with the mandatory and accurate information and submit the access request.
+3. Fill the form. Fields values are: 1. Request type: Onboarding for new user, 2. Role: Basic Login for Preview site access, 3. Country: Select the required country. If not available in the dropdown, select other and mentioned the country name on the next field. 4. Select PIAP Application Module: Select the required application. e.g. AbbVie Pro, 5. Business Justification: Add a business justification for access request.
+4. After submission a ticket will be  generated and for tracking and save the ticket number for update and follow-up.
+5. The access request will be verified and approved by the business owner and technical team will provide the access.
+
+For more details follow the link: https://btsconfluence.abbvie.com/display/DSUE/Manual+for+PIAP+access+request

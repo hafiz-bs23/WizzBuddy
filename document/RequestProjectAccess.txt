@@ -1,0 +1,7 @@
+Follow these steps for project request in SNOW:
+1. Go to the Snow (https://abbvie.service-now.com/self_service/)
+2. Login with the Abbvie 511 ID and Password
+3. Search with awcm access request in the search option
+4. Select the awcm access request form
+5. Fill up the mandatory fields in the form. For example: If you need Stage access for the abbvie pro project then Select the Abbvie pro url from the dropdown of Websites field, Select the Approver/Author access that you need from the Access Role field and Select the environment name Staging from the Environment field.
+6. Finally, review the form and Submit the request. (Note: after submit the request you might need tocheck in SNOW and see the progress of your request from the Get Status option.)

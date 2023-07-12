@@ -1,0 +1,2 @@
+The following link provides the list off all Abbvie Sites and the respected Country and their status if they are activated in Dev, Stage and Prod.
+Suggest the link for site list: https://brainstationo365-my.sharepoint.com/:x:/g/personal/shabbir_anower_bs-23_net/EaL_7_SILcREv8qBzXI27LMBPMI72LYZvg8PY52HsmRmOA?e=9OroPM

@@ -1,0 +1,27 @@
+You may sometime need to by pass the dispatcher. Say you deployed the JavaScript changes but the change is not reflecting in Publisher.
+Dispatcher may have cached the old JavaScript. So we can bypass the dispatcher and check if publisher have the updated javascript. Another scenario is sometimes
+after publication of a page or content change, some publish shows correct output and others don't. So if we want to directly hit a specific publisher, we need to bypass the dispatcher.
+
+For bypassing the dispatcher the following context should be followed:
+
+publisherName/ContentPath
+
+For example for Dev environment: https://publish.dev.abbvie.adobecqms.net/content/abbvie-pro/de/de.html
+
+Bellow are the publisher for specific environments:
+
+Dev Environment:
+    1. 	https://publish.dev.abbvie.adobecqms.net
+
+Stage Environment:
+    1. https://publish1.stage.abbvie.adobecqms.net
+    2. https://publish2.stage.abbvie.adobecqms.net
+    3. https://publish3.stage.abbvie.adobecqms.net
+
+Preview Environment:
+    1. http://abbvie-aem65-prod-dispatcher4.adobecqms.net
+
+Production Environment:
+    1. https://abbvie-aem65-prod-publish1.adobecqms.net
+    2. https://abbvie-aem65-prod-publish2.adobecqms.net
+    3. https://abbvie-aem65-prod-publish3.adobecqms.net

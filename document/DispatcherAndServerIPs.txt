@@ -1,0 +1,20 @@
+IP address of AEM Servers:
+Environment: DEV, Instance: Dispatcher, IP: 3.213.111.80
+Environment: DEV, Instance: Author, IP:	3.215.161.80
+Environment: DEV, Instance: Publish, IP: 3.95.97.77
+Environment: STAGE, Instance: Dispatcher 1, IP: 3.218.42.88
+Environment: STAGE, Instance: Dispatcher 2,	IP: 3.220.145.205
+Environment: STAGE, Instance: Dispatcher 3,	IP: 108.128.236.27
+Environment: STAGE, Instance: Author, IP: 52.200.240.110
+Environment: STAGE, Instance: Publish 1, IP: 3.224.22.56
+Environment: STAGE, Instance: Publish 2, IP: 3.217.131.176
+Environment: STAGE, Instance: Publish 3, IP: 63.32.23.38
+Environment: Prod, Instance: publish1useast1, IP: 18.214.92.63
+Environment: Prod, Instance: publish2useast1, IP: 18.206.105.56
+Environment: Prod, Instance: publish1euwest1, IP: 108.128.13.164
+Environment: Prod, Instance: disp1, IP:	3.220.185.107
+Environment: Prod, Instance: disp Dispatcher 1, IP: 3.220.185.107
+Environment: Prod, Instance: disp Dispatcher 2	IP: 3.209.31.36
+Environment: Prod, Instance: disp Dispatcher 3	IP: 52.50.139.224
+Environment: Prod, Instance: preview, IP: 52.201.134.146
+Environment: Prod, Instance: Author, IP: 34.233.187.13

@@ -1,0 +1,39 @@
+QA or Testing Team follow the following testing procedure:
+For a new Sprint, Pre-Sprint Task:
+    1. Requirement analysis and clarifications
+    2. Communicate with business
+    3. Planning and Effort estimation
+    4. Schedule calls if needed with business
+    5. Knowledge transfer between team members
+    6. Test Documentation : Test cases and test data etc.
+    7. Review Business requirements (Backlog meeting)
+    8. Ticket grooming and write acceptance criteria according to the business requirements
+    9. Start the SLC process
+    10. Skill gap analysis / skilled resources, arrange training if needed (optional)
+    11. Environment setup - SW/HW Requirements (optional)
+    12. Tools selection (optional)
+    13. Automation (optional)
+
+For a new Sprint,  During the Sprint Cycle Task:
+
+    1. Update Test Cases and Test data
+    2. Test Execution
+    3. Regression, sanity testing
+    4. Review Test cases
+    5. Communicate with team and clients
+    6. Document review
+    7. Defect Management - reporting and monitoring
+    8. Bug verification
+    9. Bug council or discussion
+    10. Knowledge sharing
+    11. Documentation of system changes (SLC)
+    12. Release Management (in Jira)
+    13. Prepare Sprint sanity doc
+    14. Prepare CAB
+    15. Dry Run
+    16. Sprint review
+    17. Automation (optional)
+
+For a new Sprint,  Post Sprint Tasks:
+    1. Communicate with business during deployment
+    2. Production deployment Support and maintenance

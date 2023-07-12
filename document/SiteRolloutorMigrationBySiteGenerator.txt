@@ -1,0 +1,36 @@
+For Site rollout or migration by Site Generator, needs to follow the steps:
+
+Affiliate part:
+1. DNS purchase
+2. Website GWRS Entry (Ops team will check if the entry is completed correctly after receiving a request)
+3. Request for new site creation (Raise a ServiceNow ticket)
+4. Create content
+5. Publish content
+Note: The step 4 and 5 will be completed after the other parts are completed. ie (DEV, QA, Platform) team task.
+
+Step 1: Receive the SNOW ticket.
+Step 2:  Check domain from https://www.whois.com/ if this owned by AbbVie Inc. If the organization is not AbbVie Inc. please inform the Affiliate to purchase the domain.
+Step 3: Check GWRS entry of the given domain name from the URL- https://abbvienow.service-now.com/u_app_gwrs_list.do?sysparm_userpref_module=53649960dbf078d0cef68104399619fd&sysparm_query=sys_class_name%3Du_app_gwrs%5EEQ&sysparm_clear_stack=tru. If the GWRS entry is completed properly the site should be available on the aWCM form dropdown.
+If not found on the form, the entry should be updated from the URL- https://abbvienow.service-now.com/self_service?id=sc_cat_item&sys_id=feb1137bdb9b638017a2ea42ca96193d. The marked fields cannot be empty.
+If GWRS entry is not completed we will complete the entry on behalf of the requester/ ask the requester to complete the entry. To complete this we need the required information and will send an email to the requester with this file.
+After receiving the information we will submit the entry from URL-  https://abbvienow.service-now.com/self_service?id=sc_cat_item&sys_id=4593411a6f83f60069c709c54b3ee495
+Step 4: After domain confirmation and GWRS entry Ops team will collect the below information before proceeding:
+    1. The go-live date
+    2. Short description of the website
+    3. Preferred theme for this project
+    4. User list (AbbVie users) for Author and Approver access.
+    5. confirmation of the content path. eg. Title: Project/Country/Language, Name: project/country/language
+
+Step 5: Ops team will raise a reqeust for Google Analytics setup. URL- https://abbvienow.service-now.com/self_service?id=sc_cat_item&sys_id=1c05ef1c1bc9d194cdee11b4bd4bcb8a following information that is required to set up the domain.
+    1. Site Owner (or, Business owner)
+    2. Analytics
+    3. Analytics ID
+    4. Tag Manager ID
+After receiving the information- DNS record change. DevOps will complete this step.
+
+Step 6: Ops team will create a JIRA ticket with "DevOps_Service" level. Example ticket title SCTASK00450657 New Site Generator project for abc.com (CP 3)
+Step 7:  Create the excel for AEM permission matrix.  Duplicate an existing site gen project sheet and update the project name with the new site to setup. The updated permission matrix needs to be confirmed from DEV team.
+Step 8: Create the project node from Site Generator stage environment. Dev, Stage and Prod environment. Create>Page>Project Page Template. The nodes will be created according to the permission matrix.
+
+
+For more details with example follow the link: https://btsconfluence.abbvie.com/pages/viewpage.action?pageId=245503438

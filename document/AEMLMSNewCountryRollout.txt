@@ -1,0 +1,14 @@
+Prerequisites of Site A - Global Domain (abbviepro.com) to integrate LMS
+1. ICC integration: For user management.
+2. AEM Content authoring (Site Structure, Course List, Iframe Configuration, **Course Search and Filter Configuration)
+3. LMS Author (Admin, Content Creator, Cohorts) access for course content creation.
+4. Category Hierarchy for Course Category management.
+**Optional
+
+Prerequisites of Site A - Local Domain (abbviepro.at) to integrate LMS
+1. ICC integration: For user management.
+2. AEM Content authoring (Site Structure, Course List, Iframe Configuration, **Course Search and Filter Configuration).
+3. Local domain whitelisting.
+4. LMS Author (Admin, Content Creator, Cohorts) access for course content creation.
+5. Category Hierarchy for Course Category management.
+**Optiona

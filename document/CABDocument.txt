@@ -1,0 +1,21 @@
+CAB Stands for Change Advisory Board. For CAB documentation the following should be considered:
+1. The CAB document should be written based on predefined template provided by AMS, amendments need to be communicated with the MSP team in advance.
+2. The document is expected to contain instructions as mush in detail as possible (provided by Devs & QA) about the changes are going on production
+    2.1 Target Date
+    2.2 Demand Number
+    2.3 Project Name,
+    2.4 Website Domains,
+    2.5 Short Description of Change
+    2.6 Package names, version with filters and installation order (instance specific)
+    2.7 Users, Groups and Permission (instance specific)
+    2.8 Dispatcher configuration (rewrite rule)
+    2.9 Bundles/Workflows name (need to be restarted or disable)
+    2.10 cache clearance instructions (instance specific)
+    2.11 Bundle verification instruction (instance specific)
+    2.12 Basic Sanity (instance specific)
+    2.13 repository information (git urls)
+3. Any dependency must be mentioned with the main application package with appropriate order
+4. All the code packages should be of release version
+5. For new websites: demand number (awcm request raised in advance) for prod environment setup need to be mentioned and highlighted
+6. For new Users/Groups and Permission (awcm access raised in advance) need to be mentioned and highlighted
+7. For any prod dispatcher configuration change (awcm request raise in advance) mentioned and highlighted

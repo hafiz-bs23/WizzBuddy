@@ -1,0 +1,18 @@
+LMS integration in AEM works based on two major service:
+1. Use LMS APIs to display dedicated course list in AEM
+2. Load student view of course details in AEM Iframe.
+The course details is integrated in AEM through "Iframe Integration" component in AEM. So course details loading in the iframe is directly fetching the LMS site(Student View). AEM component (Iframe Integration) itself do not have any control over what kind of content is loading. The content is managed by  LMS and the render through theme (i.e. abbvie_pro_v2).
+Any change necessary (including placeholders, ui translation) the content loading in the iframe have to be managed through themes in LMS.
+For UI translation of a new Language, we need to add the translations to the theme and deploy the changes in LMS. Also in AEM "Iframe Integration" component we need to enable UI translation and add required locale code.
+The steps need to be followed to rollout a new Language to a Theme:
+
+Raise a Ticket for new language support for a theme.
+
+Task Name, Actor, Effort, SLA
+Add corresponding translation for each place holders and return list to Brain Station 23, Requester, N/A,16 Hrs
+Add the translation to LMS for corresponding theme and rollout new language,	Brain Station 23,	2 CP (Dev + QA),	8Hrs
+Configure "Iframe Integration" component to add new language code for UI translation, ,1CP(CF),	4Hrs
+Prepare List of translatable placeholders. And provide list to requester for adding corresponding translation, Brain Station 23,	1 CP (DevOps),	8 Hrs
+Raise a Ticket for new language support for a theme, Requester,	N/A,	N/A
+
+The ticket will be done under regular sprint cycle.

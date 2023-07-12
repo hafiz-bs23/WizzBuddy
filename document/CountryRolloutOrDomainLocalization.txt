@@ -1,0 +1,39 @@
+For Country rollout or Domain Localization we follow the bellow process.
+
+Affiliates:
+
+Affiliates purchase Domain
+Request for GWRS entry
+Rise SNOW request for country rollout/Domain localization. In SNOW(Go/OUSdigitalsupport)
+Dev Team:
+1. Dev team request for DNS record
+2. Creates maps and change dispatcher in dev instance
+3. Rise SNOW request for SSL, Dispatcher, maps and error page setup.
+4. Update permission matrix, raise request to create user group and give access permission.
+5. Take consideration whitelisting domain for google re-captcha.
+6. New PDF embed API key is required. Rishi can provide the API key. Authors can configure it for that localize domain.
+
+
+Platform Team:
+
+1. Makes the dispatcher changes
+2. Install maps packages in AEM Environments
+3. Provides required permissions
+4. Install SSL certificates
+5. Deploy all the changes to production.
+
+Content Factory / Google Analytics Team:
+
+1. Add reference the GA script (GA Cloud Service) in the country node.
+2. GA team needs to adjust the filter for the new domain.
+
+Q&A Team:
+1. Perform regression test and sanity Check
+
+Country/Domain Localization Process summery and Steps:
+
+Affliates: DNS purchase -> GWRS Entry -> Service Now request for country rollout or domain localization
+Dev Team: DNS record request -> Dispatcher change and maps creation -> SSL, Dispatcher and maps, error page SNOW request -> Update permission matrix -> User group creation, permission -> Google re-captcha domain entry -> Embed PDF API Key
+Platform Team: Make the dispatcher changes -> Install map packages in AEM Environments -> Install SSL Certificates -> Deploy all the changes to PROD
+Content Factory team: Reference GA Script in the country node -> Make adjustment to GA filters
+Q&A Team: Regression test and Sanity check.

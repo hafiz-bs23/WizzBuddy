@@ -1,0 +1,58 @@
+For a new AEM project delivery, following points need to be checked:
+
+1. GWRS
+2. Dispatcher Configuration (Requires SNOW demand)
+3. DNS (SSL)
+4. Mapping (Requires SNOW demand)
+5. User Groups (Requires SNOW demand)
+6. Permission Matrix (Requires SNOW demand)
+7. Permissions
+    7.1 User permissions (anonymous, login, service user etc.)
+        7.1.1 /content/site-name
+        7.1.2 /content/dam/site-name
+        7.1.3 /content/cq:tags/site-name
+        7.1.4 /etc/cloudservices/abbvie-cloud-service/site-name
+        7.1.5 /etc/cloudservices/generic-tracker/site-name
+        7.1.6 /conf/site-name
+    7.2 Initial author/approver permissions
+8. Basic content package (Requires SNOW demand) (Optional)
+    8.1 Content, DAM, Experience fragments, Cloud service
+    8.2 sling:configRef
+    8.3 Servlet pages
+9. PIAP Dependency (Optional)
+    9.1 Store form in PIAP
+10. Google Recaptcha
+11. If AbbVie Pro multisite/new domain, then request for PDF api key
+12. Application Configurations (OSGI)
+13. Basic Authentication (Login) (if required) (Requires SNOW demand)
+14. Error Page Implementation (Requires SNOW demand)
+15. Robots.txt
+16. sitemap xml and html
+17. Google Analytics
+18. AEM Project Walkthrough
+19. AEM Authoring Training
+20. Handover authoring guide
+21. SEO initial check
+    21.1 Meta Title & Description
+    21.2 Canonical Link
+    21.3 Href Lang
+    21.4 Alternate Text
+22. TrustArc cookie banner
+23. Configure Date & Time format in the country level.
+24. Accessibility
+    24.1 AA compliant
+25. AEM Publishing Workflow - Preview
+26. Content UAT
+27. AEM Content Publish to production
+
+
+Usually following demands are raised for a new project delivery:
+
+1. Dispatcher Configuration (Requires SNOW demand) on Preview and Production
+2. Content and mapping package installation for <site-name>
+3. User permission update for <site-name>
+4. User group creation and user access demand raised for <site-name>
+5. <site-name> error page setup
+
+
+For details follow the link: https://btsconfluence.abbvie.com/display/DSUE/07+-+AEM+New+Project+Checklist

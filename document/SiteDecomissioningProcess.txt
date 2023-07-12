@@ -1,0 +1,13 @@
+To decommission a Abbvie Site a specific rule set needs to be followed. Affiliates, Platform team and Development team all have defined action for decommissioning process.
+The following actions needs to be ferformed by the Affiliates:
+1. Raise a request from this link : https://abbvienow.service-now.com/self_service?id=sc_cat_item&sys_id=4ab9ca041bdea890cdee11b4bd4bcbcc&sysparm_category=16de23cf6fff5a0069c7d8c54b3ee49c
+2. Site owner approvals email for decommission.
+3. Ensure the date of decommission.
+4. Confirm if the SSL be retained
+
+For the platform and development team:
+1. Deactivate the content from the Production Author so none of the stale/outdated content is LIVE. -  Action Item on Content Authors/Approvers
+2. Package the empty filters for vhost, maps. - Action Item on MSP team
+3. Package the empty code after verifying the dependencies. - Action item on Development team.
+
+For more details follow the link: https://btsconfluence.abbvie.com/display/DSUE/Site+Decommissioning+Process

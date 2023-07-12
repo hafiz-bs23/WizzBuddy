@@ -1,0 +1,7 @@
+Follow these steps for adding yourself in SonarQube group:
+1. Go to the Snow (https://abbvie.service-now.com/self_service/)
+2. Login with the Abbvie 511 ID and Password
+3. Search with "Add one AD group to one 511 account"
+4. You can also directly hit the link from VM: https://abbvienow.service-now.com/self_service?id=sc_cat_item&sys_id=0e6149c0dbd65914d5bb8f38139619fc
+5. Fill up the mandatory fields in the form. Select Goup value to : APP-SONARQUBE-OUSAWCM-Users. User Acount: Add youself, Add a business justification.
+6. Submit and wait for approval.

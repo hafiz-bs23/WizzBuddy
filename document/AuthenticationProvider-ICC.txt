@@ -1,0 +1,15 @@
+Follow the process described below to implement and rollout new ICC configuration or enabling ICC for a new country. The steps to be followed strictly and one by one. Skipping any steps may create issues.
+Step 1: Actor: PIAP - Request to ICC for ICC Configuration.
+Step 2: Actor: ICC - Will share ICC configs via Email for STAGE, PREVIEW, PROD environments.
+Step 3: Actor: PIAP - Integrate ICC Configs with PIAP for STAGE, PREVIEW, PROD environments.
+Step 4: Actor: PIAP - Deploy PIAP Code to STAGE, PREVIEW, PROD
+Step 5: Actor: QA in AEM change Authentication Provider to ICC
+Step 6: Actor: QA in AEM Make Sure ICC Login is opening when clicked on Login from AEM
+Step 7: Actor: QA in AEM Create Campaign (Limited First, Authentication First and Auto Login)
+Step 8: Actor: QA in AEM - Share Campaign URLs with PIAP Team Members
+Step 9: Actor: PIAP - Share Test Data at Confluence (Registration)
+Step 10: Actor: PIAP - Share Pre Fill Input Fields at Confluence
+Step 11: Actor: QA in AEM and PIAP - Test listed Features: 1. Login, 2. Registration, 3. Campaign - Limited Access, 4. Campaign - Authentication First, 5. Campaign - Auto Login
+Step 12: Actor: PIAP - Share Test Data at Confluence (Login)
+Step 13: AEM / PIAP  Notify QA Team to Test
+Step 14: QA - Test and Sign-off
